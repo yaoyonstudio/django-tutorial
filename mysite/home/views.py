@@ -6,4 +6,4 @@ def hello(request):
 
 def index(request):
     context = { 'title': 'Django Tutorial' }
-    return render(request, 'index.html', context)
+    return render(request, 'home/index.html', context)
